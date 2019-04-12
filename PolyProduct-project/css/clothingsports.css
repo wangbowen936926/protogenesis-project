@@ -1,0 +1,365 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #f7f7f7;
+}
+.channel_con{
+	max-width: 1000px;
+	min-width: 1000px;
+	margin: 0 auto;
+}
+/*左边区域*/
+.pop_content_left{
+	display: inline-block;
+	width: 743px;
+}
+.pop_left_sorts{
+	margin-top: 20px;
+	background: #ffffff;
+	border: 1px solid gainsboro;
+}
+.pop_left_sorts a{
+	position: relative;
+	margin-top: -240px;
+	display: block;
+	width: 100%px;
+	height: 240px;
+}
+.pop_left_sorts a .onsale_link_bg{
+	display: inline-block;
+	float: right;
+	width: 536px;
+	height: 240px;
+}
+.content-left-header{
+	margin-top: 20px;
+}
+.fl{
+	display: inline-block;
+	width: 330px;
+	height: 30px;
+	background: url(../img/main_icon.png)-205px 1px no-repeat;
+}
+.fr{
+	float: right;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+}
+.left_sorts_rank{
+	display: inline-block;
+	width: 200px;
+	color: darkslategray;
+	font-size: 12px;
+	font-family: "宋体";
+	font-weight: bold;
+	text-align: center;
+}
+.left_sorts_rank p{
+	margin-top: 23px;
+	cursor: pointer;
+}
+.logo img{
+	width: 80px;
+	height: 50px;
+}
+.buyer_box{
+	width: 741px;
+    height: 25px;
+    line-height: 25px;
+    border-bottom: 1px solid #bdbcbc;
+    position: absolute;
+    margin-top: -26px;
+    right: auto;
+    z-index: 2;
+    overflow: hidden;
+    filter: alpha(opacity=32);
+    background: rgba(0,0,0,.32);
+}
+.tit{
+	width: 200px;
+	text-align: center;
+}
+.pic{
+	width: 537px;
+	height: 240px;
+}
+.left_img_box{
+	display: inline-block;
+	vertical-align: top;
+	width: 536px;
+	height: 240px;
+}
+/*右边区域*/
+.pop_content_right{
+	display: inline-block;
+	width: 240px;
+	vertical-align: top;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.content_right_header{
+	height: 35px;
+	color: white;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	text-align: center;
+	line-height: 35px;
+	background: black;
+}
+.right-header-date{
+	background-color: white;
+	border-left: 1px solid gainsboro;
+	border-right: 1px solid gainsboro;
+}
+.header-date-text{
+	width: 45px;
+	display: inline-block;
+	text-align: center;
+	margin: 10px 0px 0px;
+}
+.line{
+	display: none;
+	width: 0px;
+    height: 1px;
+    background: #ee2567;
+    position: absolute;
+    top: 116px; 
+    margin-left: 3px;
+    overflow: hidden;
+}
+.bt-container{
+	height: 630px;
+	background-color: white;
+	border: 1px solid gainsboro;
+}
+.bt-container-img{
+	height: 57px;
+}
+.img-left{
+	position: relative;
+	display: none;
+	float: left;
+	width: 76px;
+	height: 40px;
+	line-height: 41px;
+	margin: 7px 20px 7px;
+}
+.img-left img {
+	position: relative;
+	display: block;
+	width: 66px;
+	height: 30px;
+	line-height: 40px;
+	margin-top: 4px;
+	margin-left: 4px;
+}
+.img-left .product-img{
+	position: absolute;
+	margin-top: -35px;
+	margin-left: -330px;
+	width: 330px;
+	height: 243px;
+	z-index: 2;
+	background: white;
+	display: none;
+}
+.product-img img{
+	width: 322px;
+	height: 190px;
+}
+.product-img span{
+	display: block;
+	width: 200px;
+	height: 20px;
+	line-height: 20px;
+}
+.product-img span:first-of-type{
+	margin-top: 6px;
+	margin-left: 3px;
+	color: darkslategrey;
+	font-size: 16px;
+	font-family: "仿宋";
+	font-weight: bold;
+}
+.product-img span:last-of-type{
+	margin-left: 5px;
+	color: darkslategrey;
+	font-size: 12px;
+}
+.header-date-text:first-of-type{
+	margin-left: 22px;
+}
+.header-date-text:nth-child(2){
+	margin: 0px 24px 0px;
+}
+.date-text-top{
+	color: #000000;
+	font-family: "黑体";
+	font-weight: bold;
+	font-size: 17px;
+}
+.date-text-buttom{
+	color: darkgray;
+	font-size: 13px;
+	margin: 5px 0px 10px;
+}
+.bt-bottom{
+	height: 70px;
+	background: white;
+	border-bottom: 1px solid gainsboro;
+	border-left: 1px solid gainsboro;
+	border-right: 1px solid gainsboro;
+}
+.bt-bottom a{
+	margin: 22px 0px 22px;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+}
+.bt-bottom a:nth-child(1){
+	margin-left: 82px;
+	background: url(../img/main_icon.png)-358px -65px no-repeat;
+}
+.bt-bottom a:nth-child(2){
+	margin-left: 10px;
+	background: url(../img/main_icon.png)-383px -65px no-repeat;
+}
+.content-right-part{
+	background-color: white;
+	margin-top: 20px;
+}
+.right-part-text{
+	border: 1px solid gainsboro;
+}
+.promise_a{
+	display: block;
+	color: #696969;
+	font-size: 12px;
+	border-top: 1px solid gainsboro;
+}
+.promise_a div{
+	margin: 20px 0px 20px;
+}
+.promise_bg{
+	display: inline-block;
+	vertical-align: middle;
+	width: 34px;
+	height: 35px;
+	margin-left: 10px;
+}
+.promise_text{
+	display: inline-block;
+	width: 170px;
+	vertical-align: middle;
+	margin: 5px;
+}
+.promise_text b{
+	color: #a17aa0;
+}
+.mobile{
+	font-size: 20px;
+}
+.bg-one{
+	background: url(../img/main_icon.png)no-repeat;
+}
+.bg-two{
+	background: url(../img/main_icon.png)-34px 1px no-repeat;
+}
+.bg-three{
+	background: url(../img/main_icon.png)-68px 1px no-repeat;
+}
+.bg-four{
+	background: url(../img/main_icon.png)-102px 1px no-repeat;
+}
+.bg-six{
+	background: url(../img/main_icon.png)-170px 1px no-repeat;
+}
+.promise_a_last{
+	color: #a17aa0;
+	text-align: center;
+}
+.promise_big div{
+	color: mediumorchid;
+	text-align: center;
+}
+.promise_num{
+	display: inline-block;
+	margin-top: 0px;
+	width: 238px;
+	color: darkorchid;
+	font-size: 19px;
+}
+.right_con{
+	border: 1px solid gainsboro;
+}
+.right_con i{
+	display: block;
+	width: 34px;
+	height: 36px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-radius: 50%;
+	background: url(../img/main_icon.png)-210px -96px no-repeat;/*第二个值向左（值数减小）第二个值向下（值数减小）*/
+}
+.t{
+	color: #696969;
+	font-size: 12px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.btn{
+	margin: 0 auto;
+	margin-top: 8px;
+	margin-bottom: 15px;
+	display: block;
+	width: 90px;
+	height: 25px;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	line-height: 25px;
+	background: #ccb481;
+}
+.bottom-bg1,.bottom-bg2{
+	width: 1000px;
+	height: 40px;
+	margin-top: 20px;
+}
+.bottom-bg1 span,.bottom-bg2 span{
+	float: right;
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: black;
+}
+.bottom-bg1{
+	background: url(../img/main_icon.png)0px -173px no-repeat;
+}
+.bottom-bg2{
+	background: url(../img/main_icon.png)0px -134px no-repeat;
+}
+.bottom-p{
+	width: 100%;
+	height: 50px;
+	margin-top: 40px;
+	display: inline-block;
+	background: black;
+}
+.bottom-p div{
+	width: 500px;
+	line-height: 48px;
+	margin: 0 auto;
+}
+.bottom-p span{
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+.bottom-p span:nth-child(2){
+	margin: 0px 20px 0px;
+}
